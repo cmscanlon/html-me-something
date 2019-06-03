@@ -4,7 +4,7 @@ Basic Setup
 
 * {
     margin: 20;
-    padding: 20;
+    padding: 100;
     box-sizing: border-box;  
 }
 
@@ -35,7 +35,7 @@ nav {
 }
 
 h1 {
-    font-size: 95%;
+    font-size: 300%;
     text-transform: uppercase;
     text-align: center;
 }  
@@ -60,3 +60,15 @@ img {
 img:hover {
     opacity: 1;
     transform: scale(1.25);
+} 
+
+#days ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+#days li {
+    display: inline-block;
+  }   
+ 
