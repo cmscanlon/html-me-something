@@ -45,7 +45,7 @@ h2 {
 }
 
 p {
-    font-size: 100%;
+    font-size: 75%;
 }
 
 
@@ -62,7 +62,7 @@ img:hover {
     transform: scale(1.25);
 } 
 
-#days ul {
+element #days ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -70,5 +70,10 @@ img:hover {
   
 #days li {
     display: inline-block;
+    text-align: center;
   }   
+
+footer {
+    font-size: 75%;
+}  
  
